@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./CSS/services_style.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome 5 CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="preloader">
+    <div id="status">
+      <div class="load">
+        <hr />
+       <hr/>
+          <hr/>
+          
+      </div>
+    </div>
+  </div>
+
+  <!--end page Loader -->
+
+  <nav class="navbar navbar-expand-lg fixed-top sticky" style="background-color: #7ee7de;">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/logo_waterfresh.png" alt="" height="70"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
+        <ul class="navbar-nav" id="navbar-navList">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partnerWithUs.html">Partner with us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="workWithUs.html">Join us</a>
+          </li>
+        </ul>
+        
+        
+        <form class="d-flex ms-auto">
+          <div class="container">
+            <!-- Create social media icons using Font Awesome -->
+            <a href="tel: +91742881455" class="btn btn-link">
+              <i class="fa fa-phone"></i>
+            </a>
+
+            
+            <a href="https://api.whatsapp.com/send/?phone=917428140066&text&type=phone_number&app_absent=0"
+              class="btn btn-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:waterfresh323@gmail.com"
+              class="btn btn-link">
+              <i class="fa fa-envelope"></i>
+            </a>
+
+            <!-- Add more social media icons and links as needed -->
+          </div>
+        </form>
+      
+      
+      </div>
+    </div>
+  </nav> <!--end container-->
+
+  <!-- END NAVBAR -->
+
+  <!-- START HERO -->
+  <section class="bg-blog">
+
+    <div class="bg-overlay">
+      <a href="#"><img src="images/services_banner.png" alt="Blog" class="img-fluid rounded-3" /></a>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <div class="text-center text-white">
+
+            <h2 class="text-white fw-light"><span class="fw-semibold"></span></h2>
+            <nav aria-label="breadcrumb" class="mt-3">
+
+            </nav>
+          </div>
+        </div>
+        <!--end col-->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <!-- END HERO -->
+
+
+  <!--Scheduled home pick up & drop-->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card text-center" style="width: 800px; height: 200px;">
+
+          <div class="card-body">
+         
+            <h5 class="card-title">Schedule Home Pick Up & Drop</h5>
+            <p class="card-text">
+            <form action="user-details-save" method="POST">
+                
+              <div class="row">
+                <div class="col mb-3">
+                  <input type="text" name="name" class="form-control" placeholder="Name">
+                </div>
+                <div class="col mb-3">
+                  <input type="email" name="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col mb-3">
+                  <input type="number" name="contact" class="form-control" placeholder="Contact no.">
+                </div>
+              </div>
+              </p>
+
+              <input type="submit" class="btn btn-primary">
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--END-->
+
+  <!--Our Services-->
+  <section id="sectionId">
+    <div class="img-fluid" style="background-image: url('images/processWeFollowbackground.jpg');">
+      <br>
+      <br>
+      <div class="text-center">
+        <h1 style="color:rgb(31, 120, 143);" class="fw-bold" style="font-size: 40px;"><u>Our Services</u></h1>
+        <br>
+        
+      </div>
+      <br>
+      <br>
+
+      <div class="how-section1">
+        <div class="row">
+          <div class="col-sm col-12 order-last order-sm-0 text-center">
+            <h4>Dry Cleaning</h4>
+            <p class="text-muted">  
+            WaterFresh is a dry cleaning service that uses specialized solvents in an eco-friendly process. This method is particularly suitable for delicate fabrics that may not withstand traditional washing. We offer a range of services including the cleaning of rugs and carpets, shoes and bags, delicate items, cushions and couches, and formal wear. We also provide a nano coating service for superior protection and longevity of your items. With WaterFresh, you can experience the new age of dry cleaning.
+</p>
+          </div>
+          <div class="col-sm col-12 how-img">
+            <img src="images/Dry Cleaning.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <br>
+        <div class="row my-3">
+          <div class="col-sm col-12 how-img">
+            <img src="images/Deep Cleaning.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-sm col-12 text-center">
+            <h4>Deep Cleaning</h4>
+            <p class="text-muted">
+            WaterFresh offers comprehensive deep cleaning services that rejuvenate your space, going beyond the surface to target everything from carpets and upholstery to kitchen appliances and hard-to-reach spaces. Our services include Upholstery Renewal, Kitchen Appliances Cleaning, Bathroom Sanitization, Window and Glass Cleaning, Air Duct Cleaning, and Floor Care. 
+            We ensure every corner of your home or office is revitalized, resulting in a cleaner, healthier space. Experience the transformation with our meticulous deep cleaning process.
+
+
+
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row ">
+          <div class="col-sm col-12 order-last order-sm-0 text-center">
+            <h4>Special Events</h4>
+            <p class="text-muted">WaterFresh offers dedicated cleaning services for special events, ensuring that both you and your venue shine for the occasion. We cater to a variety of events including destination weddings, fashion shows, film shooting events, corporate gatherings, and other special occasions. Our services include ensuring all attire is perfectly pressed and ready. We also provide onsite steam pressing stations for runway-ready outfits at fashion shows, and more. With WaterFresh, you can focus on making beautiful memories while we handle the cleanliness.
+</p>
+          </div>
+          <div class="col-sm col-12 how-img">
+            <img src="images/Special Events.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="text-center">
+        <h4 class="fw-bold" style="font-size: 40px;"><u>Mode Of Services</u></h4>
+</div>
+<br>
+<br>
+        <div class="row my-3">
+          <div class="col-sm col-12 how-img">
+            <img src="images/pick&Drop.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-sm col-12 text-center">
+            <h4>Pick Up & Drop</h4>
+            <p class="text-muted">
+              
+            We understand your busy schedule. That’s why we offer convenient pick-up and drop-off services for all your cleaning needs. Whether it’s your clothes or cleaning of household items, we ensure our services reach your doorstep. With WaterFresh, experience hassle-free cleaning that comes to you.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm col-12 order-last order-sm-0 text-center">
+            <h4>Onsite Projects</h4>
+            <p class="text-muted">
+            WaterFresh specializes in cleaning up after construction or renovation projects, leaving your space pristine and ready for occupancy. We also  prepare your space for any special event, ensuring it leaves a lasting impression on your guests. For corporates, we ensure a hygienic and comfortable working atmosphere, contributing to productivity and employee well-being.
+
+            </p>
+          </div>
+          <div class="col-sm col-12 how-img">
+            <img src="images/Onsite Projects.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="text-center">
+      <h3 style="font-size: 20px;"><b>Note :- Attractive discounts available on a weekly/monthly subscription</b></h3>
+</div>
+      </div>
+
+    </div>
+  </section>
+  <!--End Our Services-->
+  <!--table garments-->
+  <div class="img-fluid"
+    style="background-image: url('images/garments_background.png'); height: 200px  ; width: 1300px;">
+    <br>
+    <br>
+    <br>
+    <div class="container text-center">
+      <h3 class="fw-bold" style="color:rgb(31, 120, 143);">Tarrif Card</h3>
+      <br>
+      <!-- Create a button to open the PDF -->
+      <button class="btn btn-primary" id="openPdfButton">Open PDF</button>
+    </div>
+  </div>
+  <!--end table garments-->
+  <br>
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>About Us</h5>
+                    <ul>
+                        <li style="font-size: 14px;"><a href="about">Our Journey</a></li>
+                        <li style="font-size: 14px;"><a href="about">Our Mission</a></li>
+                        <li style="font-size: 14px;"><a href="about">Our Values</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Services</h5>
+                    <ul>
+                        <li style="font-size: 14px;"><a href="services">Dry cleaning</a>
+                          
+                        </li>
+                        <li style="font-size: 14px;"><a href="services">Deep Cleaning</a>
+                            
+                        </li>
+                         <li style="font-size: 14px;"><a href="services">Special Events</a>
+                            
+                        </li>
+                        <li style="font-size: 14px;"><a href="services">Who Do We Cater</a></li>
+                         <ul>
+                        <li style="font-size: 12px;">Corporate</li>
+                        <li style="font-size: 12px;">Household</li>
+                        
+                           </ul>
+                        <li style="font-size: 14px;"><a href="services">Mode Of Services</a>
+                      <ul>
+                        <li style="font-size: 12px;">Pick up & drop</li>
+                        
+                        <li style="font-size: 12px;">Onsite</li>
+                        
+                          </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Partner With Us</h5>
+                    <ul>
+                        <li style="font-size: 14px;"><a href="partnerWithUs">Sponsor Collection Point</a></li>
+                        <li style="font-size: 14px;"><a href="partnerWithUs">Buy a Franchisee</a></li>
+                        <li style="font-size: 14px;"><a href="partnerWithUs">Delivery Partner</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Locate Us</h5>
+                    <ul>
+                        <li style="font-size: 14px;">Gurugram</li>
+                        <li style="font-size: 14px;">Manesar</li>
+                        <li style="font-size: 14px;">Dwarka Expressway</li>
+                        <li style="font-size: 14px;">South Delhi</li>
+                        <li style="font-size: 14px;">Faridabad</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Work With Us</h5>
+                    <button type="button" class="btn btn-outline-info"><a href="workWithUs"
+                            class="text-decoration-none" style="color:#35b5b9">Apply now</a></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+ <footer style="background-color: #7ee7de;">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col fw-bold">
+          +917420140066
+        </div>
+        <div class="col fw-bold">+917428814455</div>
+        <div class="col fw-bold">waterfresh323@gmail.com</div>
+
+        <div class="col">
+          <div class="container">
+            <!-- Create social media icons using Font Awesome -->
+            <a href="https://www.facebook.com/WaterFresh.in" class="btn btn-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/waterfresh.in/?igshid=YTQwZjQ0NmI0OA%3D%3D" class="btn btn-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=917428140066&text&type=phone_number&app_absent=0"
+              class="btn btn-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.youtube.com/@waterfresh323"
+              class="btn btn-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+
+            <!-- Add more social media icons and links as needed -->
+          </div>
+        </div>
+      </div>
+      <br>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+  <script src="./JS/services.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap 5 JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
