@@ -20,29 +20,17 @@
 .how-img img {
   width: 50%;
 }
-.img_des{
-  visibility: hidden;
-  opacity: 0;
-}
-.image-container:hover .img_hide{
-  visibility: hidden;
-  opacity: 0;
-}
 
-.image-container:hover .img_des{
-  visibility: visible;
-  opacity: 1;
-}
 
-.image-container img{
-  opacity:50%;
-}
+
 .navbar {
   margin-top: 0 !important;
   margin-top: -20px !important;
  
 }
-
+.navbar .navbar-brand{
+  margin-top: 10px;
+}
 
 .nav-item {
   margin-top: 15px !important;
@@ -54,7 +42,9 @@
   color: black;
 }
 
-
+.bannerImage{
+  margin-top: 60px;
+}
 .overlay-text {
   position: absolute;
   bottom: 0;
@@ -80,6 +70,7 @@
   padding-top: 0.25rem !important;
   color: rgb(31, 120, 143);
 }
+
 
 .fa {
   padding: 10px;
@@ -583,5 +574,16 @@ h2 {
 @media (max-width: 446px){
   .image-overlay p{
     font-size: 10px;
+  }
+}
+
+@media (max-width: 858px){
+  .bannerImage{
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 794px){
+  .bannerImage{
+    margin-bottom: 60px;
   }
 }

@@ -12,7 +12,9 @@
   text-decoration: none;
   color: black;
 }
-
+.navbar .navbar-brand{
+  margin-top: 10px;
+}
 .overlay-text {
   position: absolute;
   bottom: 0;

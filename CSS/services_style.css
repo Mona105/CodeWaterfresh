@@ -3,7 +3,9 @@
   margin-top: -20px !important;
  
 }
-
+.navbar .navbar-brand{
+  margin-top: 10px;
+}
 .nav-item {
   margin-top: 15px !important;
 }

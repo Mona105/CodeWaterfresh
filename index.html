@@ -23,6 +23,9 @@
   <div id="preloader">
     <div id="status">
       <div class="load">
+       <hr/>
+       <hr/>
+       
       </div>
     </div>
   </div>
@@ -30,7 +33,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top sticky" style="background-color: #7ee7de;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="images/logo_waterfresh.png" alt="" height="70"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/logo_waterfresh.png" alt="" style="height: 80px;"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,51 +92,77 @@
 
 
   <div class="bannerImage">
-    <img src="images/Banner.png" class="img-fluid">
+    <img src="images/Home Page Banners.png" class="img-fluid">
   </div>
 
-
+<br>
   <!--Scheduled home pick up & drop-->
   <section class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="card text-center" style="width: 800px; height: 200px;">
-
-          <div class="card-body">
-           
-            <h5 class="card-title">Schedule Home Pick Up & Drop</h5>
-            <p class="card-text">
-            <form action="user-details-save" method="POST">
-                
-              <div class="row">
-                <div class="col mb-3">
-                  <input type="text" name="name" class="form-control" placeholder="Name">
-                </div>
-                <div class="col mb-3">
-                  <input type="email" name="email" class="form-control" placeholder="Email">
-                </div>
-                <div class="col mb-3">
-                  <input type="number" name="contact" class="form-control" placeholder="Contact no.">
-                </div>
+        <div class="text-center bookNow">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="margin-bottom:10px;">
+            Book Now
+            
+          </button>
+        
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Schedule Home Pick Up & Drops</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              </p>
-
-              <input type="submit" class="btn btn-primary">
-            </form>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="card text-center" style="width: 800px; height: 200px;">
+  
+                      <div class="card-body">
+                        <p class="card-text">
+                        <form action="user-details-save" method="POST">
+                  
+                <div class="row">
+                  <div class="col mb-3">
+                    <input type="text" name="name" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="col mb-3">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="col mb-3">
+                    <input type="number" name="contact" class="form-control" placeholder="Contact no.">
+                  </div>
+                </div>
+                </p>
+  
+                <input type="submit" class="btn btn-primary">
+              </form>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
           </div>
+  </div>
         </div>
       </div>
   </section>
   <!--END-->
   <!--Our Services-->
-  <section class="ourServices">
-    <div class="img-fluid bg-img-none" style="background-image: url('images/ourServicesWallpaper.png'); ">
+  <div class="text-center">
+  <section class="ourServices" style="background-color: 	rgb(227,248,255)">
+    <div >
       <br>
       <br>
-      <br>
+     
       <div class="text-center">
 
-        <h3 class="fw-bold" style="color:rgb(31, 120, 143);">Our Services</h3>
+        <h2 class="fw-bold" style="color:rgb(31, 120, 143);"><u>Our Services</u></h2>
         <br>
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -149,123 +178,107 @@
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-            <section class="text-center" style="background-color: black;">
+            <section class="text-center">
               <br>
-              <h3 style="color:white;">Dry Cleaning</h3>
-              <p style="color:white;">At WaterFresh, we use specialized solvents to gently lift away dirt and stains. This method, devoid of water, is perfect for delicate fabrics that may not withstand conventional washing. Experience the magic of new age of dry cleaning with our eco-friendly methods. 
+              <div class="container">
+              <h3 style="color:rgb(31, 120, 143);">Dry Cleaning</h3>
+              <p style="color:rgb(128, 128, 128);">At WaterFresh, we use specialized solvents to gently lift away dirt and stains. This method, devoid of water, is perfect for delicate fabrics that may not withstand conventional washing. Experience the magic of new age of dry cleaning with our eco-friendly methods. 
           </p>
+        </div>
           
               <div class="container ">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="container mt-5">
-                      <div class="image-container">
+                      <div class="card" style="width: 250px; height: 13rem;">
                         <img src="images/1.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">Rugs/Carpets</h2>
+                       
+                          <p class="fw-bold">Rugs/Carpets</p>
                            
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Rugs/Carpets:</b> 
-                          <br>Revive the beauty of your rugs and carpets, effectively removing dirt and stains while preserving their vibrant colors and patterns. </p>
-                        </div>
+                      
+                       
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="container mt-5">
-                      <div class="image-container">
-                        <img src="images/2.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Shoes & Bags
-                          </h2>
-          
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Shoes & Bags:</b> 
-                          <br>Give your shoes and bags a new lease on life with our careful dry cleaning process, maintaining their quality and appearance </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="container mt-5">
-                      <div class="image-container">
+                      <div class="card" style="width: 250px; height: 13rem;">
                         <img src="images/3.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
+                        
+                          <p class="fw-bold">
+                          Shoes & Bags
+                          </p>
+          
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="container mt-5">
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/4.png" alt="Image" class="img-fluid">
+                        
+                          <p class="fw-bold">
                           Delicates
-                          </h2>
+                          </p>
                            
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Delicates:</b> 
-                          <br>Our gentle dry cleaning process ensures your delicates are cleaned thoroughly without compromising their integrity </p>
-                        </div>
+                        
+                        
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="container">
+              <div class="container text-center">
                 <div class="row">
                   <div class="col-md-4">
           
                     <div class="container mt-4">
-                      <div class="image-container">
-                        <img src="images/4.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay ">
-                          <h2 class="fw-bold img_hide">
-                          Cushion & Couches
-                          </h2>
-          
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Cushion & Couches:</b> 
-                          <br>Revitalize your cushions and couches, lifting away dirt and refreshing the fabric.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="container mt-4">
-                      <div class="image-container">
+                      <div class="card " style="width: 250px; height: 13rem;">
                         <img src="images/5.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Nano Coating
-                          </h2>
+                  
+                          <p class="fw-bold">
+                          Cushion & Couches
+                          </p>
           
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Nano Coating:</b> 
-                          <br>Discover the power of nano coating in our dry cleaning process, offering superior protection and longevity. </p>
-                        </div>
+                      
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="container mt-4">
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/6.png" alt="Image" class="img-fluid">
+                        
+                          <p class="fw-bold">
+                          Nano Coating
+                          </p>
+          
+                      
+                        
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
           
                     <div class="container mt-4">
-                      <div class="image-container">
-                        <img src="images/6.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/dryCleaning_7.png" alt="Image" class="img-fluid">
+                      
+                          <p class="fw-bold">
                           Formals
-                          </h2>
+                          </p>
           
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Formals:</b> 
-                          <br>Keep your formal wear looking sharp and fresh, preserving their elegance and style.
-           </p>
-                        </div>
+                      
+                        
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <br>
               <div class="text-center">
                   <a href="services.html" class="btn btn-primary">Read More</a>
                 </div>
@@ -275,132 +288,108 @@
           
           </div>
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-            <section class="text-center" style="background-color: black;">
+            <section class="text-center">
               <br>
-              <h3 style="color:white;">Deep Cleaning</h3>
-               <p style="color:white;">Dive into the world of deep cleaning with WaterFresh, where we go beyond the surface to rejuvenate your space. Our meticulous process targets everything from carpets and upholstery to hard-to-reach spaces and kitchen appliances. We ensure every corner of your home or office is revitalized, leaving you with a cleaner, healthier space.</p>
+              <div class="container">              
+                <h3 style="color:rgb(31, 120, 143);">Deep Cleaning</h3>
+                <p style="color:rgb(128, 128, 128);">Dive into the world of deep cleaning with WaterFresh, where we go beyond the surface to rejuvenate your space. Our meticulous process targets everything from carpets and upholstery to hard-to-reach spaces and kitchen appliances. We ensure every corner of your home or office is revitalized, leaving you with a cleaner, healthier space.</p>
+              </div>
+
               <div class="container ">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="container mt-5">
-                      <div class="image-container">
-                        <img src="images/Upholstery Renewal.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay ">
-                          <h2 class="fw-bold img_hide">Upholstery Renewal</h2>
-          
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Upholstery Renewal:</b> 
-                          <br>Preserve your furniture’s quality, removing embedded dirt and allergens from your upholstery.
-          
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_1.png" alt="Image" class="img-fluid">
+                       
+                          <p class="fw-bold">
+                            Upholstery Renewal
                             </p>
-                        </div>
+                           
+                      
+                       
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="container mt-5">
-                      <div class="image-container">
-                        <img src="images/Kitchen Appliances.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Kitchen Appliances
-                          </h2>
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_2.png" alt="Image" class="img-fluid">
+                        
+                          <p class="fw-bold">
+                            Kitchen Appliances: 
+                          </p>
           
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Kitchen Appliances:</b> 
-                          <br>Restore the sparkle in your kitchen with our meticulous deep cleaning of appliances, banishing grease, grime, and odors.
-          
-                            </p>
-                        </div>
+                        
+                        
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="container mt-5">
-                      <div class="image-container">
-                        <img src="images/Bathroom Sanitization.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Bathroom Sanitization
-                          </h2>
-          
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Bathroom Sanitization:</b> 
-                          <br>Get a germ-free space with our deep cleaning services that target mold, mildew, and grime in your bathroom.
-                            </p>
-                        </div>
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_3.png" alt="Image" class="img-fluid">
+                        
+                          <p class="fw-bold">
+                            Bathroom Sanitization
+                          </p>
+                           
+                        
+                        
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="container">
+              <div class="container text-center">
                 <div class="row">
                   <div class="col-md-4">
           
                     <div class="container mt-4">
-                      <div class="image-container">
-                        <img src="images/Window and Glass Cleaning.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Window and Glass Cleaning
-                          </h2>
+                      <div class="card " style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_4.png" alt="Image" class="img-fluid">
+                  
+                          <p class="fw-bold">
+                            Window and Glass Cleaning
+                          </p>
           
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>Window and Glass Cleaning:</b> 
-                          <br>Enhance your view with our window and glass cleaning services, removing smudges and streaks for a brighter outlook.
-                            </p>
-                        </div>
+                      
+                       
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="container mt-4">
-                      <div class="image-container">
-                        <img src="images/Air Duct Cleaning.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                            
-                             Air Duct Cleaning
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_5.png" alt="Image" class="img-fluid">
+                        
+                          <p class="fw-bold">
+                            Air Duct Cleaning
+                          </p>
           
-                          </h2>
-          
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b> Air Duct Cleaning:</b> 
-                          <br>Breathe cleaner, fresher air. Our deep cleaning services include air duct cleaning, reducing allergens and improving HVAC efficiency.
-                            </p>
-                        </div>
+                      
+                        
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
           
                     <div class="container mt-4">
-                      <div class="image-container">
-                        <img src="images/Floor Care.png" alt="Image" class="img-fluid">
-                        <div class="image-overlay">
-                          <h2 class="fw-bold img_hide">
-                          Floor Care
-                          </h2>
+                      <div class="card" style="width: 250px; height: 13rem;">
+                        <img src="images/deepCleaning_6.png" alt="Image" class="img-fluid">
+                      
+                          <p class="fw-bold">
+                            Floor Care
+                          </p>
           
-                        </div>
-                        <div class="image-overlay">
-                            <p class="img_des"><b>  Floor Care:</b> 
-                          <br>Step onto gleaming floors with our specialized floor care services, addressing stains, scuffs, and grime on various flooring types.
-          
-                            </p>
-                        </div>
+                      
+                        
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="text-center">
+                <br>
+              </div> <div class="text-center">
                   <a href="services.html" class="btn btn-primary">Read More</a>
                 </div>
               <br>
@@ -408,66 +397,52 @@
             </section>
           
           </div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <section class="text-center" style="background-color: black;">
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"> <section class="text-center">
             <br>
-            <h3 style="color:white;">Special Events</h3>
-             <p style="color:white;">Sparkle for Every Occasion. Make your special events even more memorable with our dedicated cleaning services. From corporate parties and get-togethers to weddings, we ensure you and your venue shines as brightly as the occasion. Trust WaterFresh to handle the cleanliness, so you can focus on making beautiful memories.</p>
+            <div class="container">
+              <h3 style="color:rgb(31, 120, 143);">Special Events</h3>
+              <p style="color:rgb(128, 128, 128);">Sparkle for Every Occasion. Make your special events even more memorable with our dedicated cleaning services. From corporate parties and get-togethers to weddings, we ensure you and your venue shines as brightly as the occasion. Trust WaterFresh to handle the cleanliness, so you can focus on making beautiful memories.</p>
+            </div>
+ 
             <div class="container ">
               <div class="row">
                 <div class="col-md-4">
                   <div class="container mt-5">
-                    <div class="image-container">
-                      <img src="images/Destination Weddings.png" alt="Image" class="img-fluid">
-                      <div class="image-overlay">
-                        <h2 class="fw-bold img_hide">Destination Weddings</h2>
-        
-                      </div>
-                      <div class="image-overlay">
-                          <p class="img_des"><b>Destination Weddings:</b> 
-                        <br>WaterFresh Events Services ensures bridal gowns, groomsmen suits, and all attire are perfectly pressed and ready for the grand celebration.
-        
-                          </p>
-                      </div>
+                    <div class="card" style="width: 250px; height: 13rem;">
+                      <img src="images/specialEvents_1.png" alt="Image" class="img-fluid">
+                     
+                        <p class="fw-bold">Destination Weddings</p>
+                         
+                    
+                     
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="container mt-5">
-                    <div class="image-container">
-                      <img src="images/Fashion Shows.png" alt="Image" class="img-fluid">
-                      <div class="image-overlay">
-                        <h2 class="fw-bold img_hide">
-                        Fashion Shows
-                        </h2>
+                    <div class="card" style="width: 250px; height: 13rem;">
+                      <img src="images/specialEvents_2.png" alt="Image" class="img-fluid">
+                      
+                        <p class="fw-bold">
+                          Fashion Shows
+                        </p>
         
-                      </div>
-                      <div class="image-overlay">
-                          <p class="img_des"><b>Fashion Shows:</b> 
-                        <br>In the world of glamour and style, presentation is everything. We partner with organizers to deliver onsite steampressing stations that guarantee runway-ready outfits.
-        
-        
-                          </p>
-                      </div>
+                      
+                      
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="container mt-5">
-                    <div class="image-container">
-                      <img src="images/Film Shooting Events.png" alt="Image" class="img-fluid">
-                      <div class="image-overlay">
-                        <h2 class="fw-bold img_hide">
-                        Film Shooting Events
-                        </h2>
-        
-                      </div>
-                      <div class="image-overlay">
-                          <p class="img_des"><b>Film Shooting Events
-                        :</b> 
-                        <br>We cater to film shooting events by providing onsite steampressing stations.
-        
-                          </p>
-                      </div>
+                    <div class="card" style="width: 250px; height: 13rem;">
+                      <img src="images/specialEvents_3.png" alt="Image" class="img-fluid">
+                      
+                        <p class="fw-bold">
+                          Film Shooting Events
+                        </p>
+                         
+                      
+                      
                     </div>
                   </div>
                 </div>
@@ -478,45 +453,35 @@
                 <div class="col-md-6">
         
                   <div class="container mt-4">
-                    <div class="image-container">
-                      <img src="images/Corporate Events.png" alt="Image" class="img-fluid">
-                      <div class="image-overlay">
-                        <h2 class="fw-bold img_hide">
-                        Corporate Events
-                        </h2>
+                    <div class="card " style="width: 250px; height: 13rem; margin-left: 150px;">
+                      <img src="images/specialEvents_4.png" alt="Image" class="img-fluid">
+                
+                        <p class="fw-bold">
+                          Corporate Events
+                        </p>
         
-                      </div>
-                      <div class="image-overlay">
-                          <p class="img_des"><b>  Corporate Events:</b> 
-                        <br>Business gatherings demand a polished look. We offer onsite steampressing stations for executives and attendees. 
-        
-                          </p>
-                      </div>
+                    
+                     
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="container mt-4">
-                    <div class="image-container">
-                      <img src="images/Special Occasions.png" alt="Image" class="img-fluid">
-                      <div class="image-overlay">
-                        <h2 class="fw-bold img_hide">
-                        Special Occasions
-                        </h2>
+                    <div class="card" style="width: 250px; height: 13rem;">
+                      <img src="images/specialEvents_5.png" alt="Image" class="img-fluid">
+                      
+                        <p class="fw-bold">
+                          Special Occasions
+                        </p>
         
-                      </div>
-                      <div class="image-overlay">
-                          <p class="img_des"><b>Special Occasions:</b> 
-                        <br>From milestone birthdays to anniversary celebrations, our onsite steampressing stations add a touch of sophistication to your events.
-        
-                          </p>
-                      </div>
+                    
+                      
                     </div>
                   </div>
                 </div>
-                
-              </div>
+                             </div>
             </div>
+            <br>
             <div class="text-center">
                 <a href="services.html" class="btn btn-primary">Read More</a>
               </div>
@@ -529,6 +494,7 @@
        </div>
       </div>
   </section>
+</div>
   <!--End Our Services-->
 
 <!--End Our Services-->
