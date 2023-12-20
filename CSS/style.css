@@ -587,3 +587,13 @@ h2 {
     margin-bottom: 60px;
   }
 }
+@media(max-width: 767px){
+  .corporateEvent{
+    margin-left: 300px;
+  }
+}
+@media(max-width: 487px){
+  .corporateEvent{
+    margin-left: 400px;
+  }
+}
