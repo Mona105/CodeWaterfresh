@@ -18,22 +18,3 @@ span.onclick = function () {
   modal.style.display = "none";
 }
 
-
-
-
-const settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "http://localhost:3000/users/pick-up-drop",
-  "method": "GET",
-  "headers": {
-    "Accept": "*/*",
-    "Access-Control-Allow-Origin": "*"
-  }
-};
-
-$(function(){
-  $('#browse_app').click(function(){
-      $.load('services.html');
-  });
-});

@@ -141,7 +141,11 @@ h2 {
 .accordion-section .panel-default .panel-title a {
   display: block;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.accordion-section .panel-default .panel-title a:hover{
+  color: black;
 }
 
 .accordion-section .panel-default .panel-title a:after {
@@ -592,4 +596,26 @@ h2 {
   .corporateEvent{
     margin-left: -150px;
   }
+}
+@media(max-width: 858px){
+  .bookNow{
+    margin-top: -40px;
+  }
+}
+
+
+
+.card{
+  
+  border:none;
+}
+
+.user-content p{
+  margin-top:5px;
+  font-size:12px;
+}
+
+
+.ratings i{
+  color:blue;
 }
